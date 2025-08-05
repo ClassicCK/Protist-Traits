@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Temperature and CO₂ Interactively Drive Shifts in Peatland Protist Communities
 
 [![DOI](https://img.shields.io/badge/DOI-10.1111%2Fgcb.17203-blue)](https://doi.org/10.1111/gcb.17203)
