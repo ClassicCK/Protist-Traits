@@ -19,3 +19,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Citation
+
+If you use this code or data in your research, please cite:
+
+Kilner, C.L., Carrell, A.A., Wieczynski, D.J., Votzke, S., DeWitt, K., Yammine, A., 
+Shaw, J., Pelletier, D.A., Weston, D.J., & Gibert, J.P. (2024). Temperature and CO₂ 
+interactively drive shifts in the compositional and functional structure of peatland 
+protist communities. Global Change Biology, 30, e17203. 
+https://doi.org/10.1111/gcb.17203
+
+## Data Availability
+
+The datasets generated and analyzed during the current study are available in the 
+Dryad repository: https://doi.org/10.5061/dryad.kprr4xhbx

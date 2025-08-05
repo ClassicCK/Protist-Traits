@@ -1,0 +1,298 @@
+# =====================================
+# SPRUCE Protist Traits - .gitignore
+# =====================================
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj.user
+.Rproj.user*
+*.Rproj
+*.rstudio-desktop
+.rstudio/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+.Rprofile
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# =====================================
+# Large Data Files
+# =====================================
+
+# Large CSV files (keep structure, ignore large data)
+data/raw/SPRUCE_2019.csv
+data/raw/SPRUCE_2020.csv
+data/raw/*.csv.gz
+data/raw/*.csv.zip
+
+# QIIME2 files can be large
+*.qza
+*.qzv
+data/raw/*.qza
+data/raw/*.qzv
+
+# Processed data files that can be regenerated
+data/processed/large_*
+data/processed/*.feather
+data/processed/*.parquet
+
+# =====================================
+# Output Files
+# =====================================
+
+# Model objects (can be large and regenerated)
+models/*.RDS
+results/*.RDS
+*.rds
+*.RDS
+
+# Large figure files
+figures/**/*.png
+figures/**/*.jpg
+figures/**/*.jpeg
+figures/**/*.tiff
+figures/**/*.eps
+figures/**/*.svg
+figures/**/*.pdf
+
+# Keep manuscript figures but ignore working versions
+!figures/manuscript/
+figures/manuscript/*.png
+figures/manuscript/*.jpg
+figures/manuscript/*.tiff
+
+# Plot output directories
+plots/
+output/
+temp_figures/
+
+# =====================================
+# System Files
+# =====================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.nfs*
+
+# =====================================
+# IDE and Editor Files
+# =====================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =====================================
+# Logs and Temporary Files
+# =====================================
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*_backup
+*_old
+
+# =====================================
+# Package Management
+# =====================================
+
+# packrat/renv
+packrat/lib*/
+packrat/src/
+.Rprofile
+renv.lock
+renv/
+.renvignore
+
+# Checkpoint
+.checkpoint/
+
+# =====================================
+# Jupyter Notebooks (if used)
+# =====================================
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# =====================================
+# Database Files
+# =====================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =====================================
+# Compressed Files
+# =====================================
+
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# =====================================
+# Environment and Config Files
+# =====================================
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive info
+config.R
+secrets.R
+credentials.R
+
+# =====================================
+# Documentation Build Files
+# =====================================
+
+# Bookdown
+_book/
+_bookdown_files/
+
+# Blogdown
+/blogdown/
+.hugo_build.lock
+
+# =====================================
+# Analysis-Specific Ignores
+# =====================================
+
+# FlowCam output files (can be large)
+*.fcs
+*.fca
+flowcam_output/
+flowcam_data/
+
+# Large intermediate analysis files
+intermediate_results/
+scratch/
+sandbox/
+
+# Cached computations
+cache/
+.cache/
+
+# HTML widgets
+*_files/
+*_cache/
+
+# =====================================
+# Keep Important Files
+# =====================================
+
+# Always keep these important files
+!README.md
+!LICENSE
+!.gitignore
+!scripts/
+!data/raw/mapping.txt
+!data/raw/SPRUCE_Density_2019.csv
+
+# Keep small example datasets
+!data/example/
+!data/sample/
+
+# Keep key result summaries (small files only)
+!results/summary_*.csv
+!results/model_summaries.txt
+
+# Keep essential documentation
+!docs/README.md
+!docs/methods.md
+!docs/analysis_notes.md

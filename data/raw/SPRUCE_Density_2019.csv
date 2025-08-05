@@ -1,0 +1,21 @@
+Plot ID,Sample ID,Temperature (±C°),Class,Count,Particles / ml
+4,North,4.5,Protists,478,405
+4,South,4.5,Protists,1609,522
+6,North,0,Protists,1798,780
+6,South,0,Protists,774,190
+8,North,6.75,Protists,1252,475
+8,South,6.75,Protists,569,168
+10,North,9,Protists,438,187
+10,South,9,Protists,475,156
+11,North,2.25,Protists,1470,579
+11,South,2.25,Protists,24770,5951
+13,North,4.5,Protists,7706,2377
+13,South,4.5,Protists,3193,741
+16,North,6.75,Protists,4716,1783
+16,South,6.75,Protists,3240,1583
+17,North,9,Protists,13718,4194
+17,South,9,Protists,83396,21329
+19,North,0,Protists,10710,7055
+19,South,0,Protists,36392,12204
+20,North,2.25,Protists,3844,2200
+20,South,2.25,Protists,10479,3002
