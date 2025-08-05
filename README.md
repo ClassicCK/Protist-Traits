@@ -273,7 +273,7 @@ manuscript.*
 If you encounter any problems or have questions about the analysis:
 
 1.  Check the
-    [Issues](https://github.com/your-username/SPRUCE-Protist-Traits/issues)
+    [Issues](https://github.com/ClassicCK/Protist-Traits/issues)
     page
 2.  Create a new issue with:
     -   Clear description of the problem
